@@ -2,61 +2,48 @@
 
 In the modern recruitment ecosystem, organizations increasingly rely on Applicant Tracking Systems (ATS) and structured interview processes to filter candidates. As a result, job seekers must not only possess the required skills but also present them effectively through optimized resumes and strong interview performance.
 However, most candidates face difficulties such as:
-•
-Creating ATS-friendly resumes
-•
-Understanding job-specific skill requirements
-•
-Identifying gaps in their knowledge
-•
-Practicing interviews in a realistic environment
+
+-Creating ATS-friendly resumes
+-Understanding job-specific skill requirements
+-Identifying gaps in their knowledge
+-Practicing interviews in a realistic environment
+
 To address these challenges, CareerForge is developed as an AI-powered placement preparation platform that integrates resume building, resume analysis, and interview preparation into a single system.
+
 The platform provides:
-•
-Resume Builder: Allows users to create professional resumes with structured templates and export them as PDF.
-•
-Resume Analysis System: Uses AI to compare the uploaded resume with a job description and generate:
-o
-ATS Score
-o
-Missing Skills
-o
-Skill Gap Report
-•
+-Resume Builder: Allows users to create professional resumes with structured templates and export them as PDF.
+-Resume Analysis System: Uses AI to compare the uploaded resume with a job description and generate:
+-ATS Score
+-Missing Skills
+-Skill Gap Report
+
+
+
 AI Interview System: Simulates interview scenarios by generating questions based on job descriptions and provides scoring and feedback.
 Built using Python (Flask framework), the system leverages modern web technologies and AI libraries to deliver intelligent insights and an interactive user experience.
 7
-➢
+
 Objectives of the Project :
-The primary objectives of CareerForge are:
-•
-To develop an intuitive, web-based platform for end-to-end placement preparation using Python and Flask.
-•
-To implement an AI-powered Resume Builder that enables users to create and manage professional resumes stored in an SQLite database.
-•
-To build a Resume ATS Analysis module that evaluates uploaded resumes against job descriptions and generates a comprehensive Skill Gap Report including ATS score, missing skills.
-•
-To create an AI-driven Interview Preparation module where users can attend mock interviews based on job descriptions and receive detailed scores and feedback.
-•
-To ensure secure user authentication with signup/login functionality using Werkzeug password hashing.
-•
-To provide a seamless, responsive, and user-friendly experience accessible from any modern web browser.
-➢
-Scope of the Project :
+*The primary objectives of CareerForge are:
+*To develop an intuitive, web-based platform for end-to-end placement preparation using Python and Flask.
+*To implement an AI-powered Resume Builder that enables users to create and manage professional resumes stored in an SQLite database.
+*To build a Resume ATS Analysis module that evaluates uploaded resumes against job descriptions and generates a comprehensive Skill Gap Report including ATS score, missing skills.
+*To create an AI-driven Interview Preparation module where users can attend mock interviews based on job descriptions and receive detailed scores and feedback.
+*To ensure secure user authentication with signup/login functionality using Werkzeug password hashing.
+*To provide a seamless, responsive, and user-friendly experience accessible from any modern web browser.
+
+
+# Scope of the Project :
 The scope of CareerForge includes:
-•
-Web-based application accessible via desktop and mobile browsers.
-•
-User account management with secure authentication.
-•
-AI-powered resume creation and storage with PDF export capability using xhtml2pdf.
-•
-Resume analysis against any job description with ATS scoring and skill recommendations.
-•
-Adaptive AI interview sessions with real-time feedback and scoring.
-•
-Persistent storage of user data, resumes, interview records using SQLite.
-8
+- Web-based application accessible via desktop and mobile browsers.
+- User account management with secure authentication.
+- AI-powered resume creation and storage with PDF export capability using xhtml2pdf.
+- Resume analysis against any job description with ATS scoring and skill recommendations.
+- Adaptive AI interview sessions with real-time feedback and scoring.
+- Persistent storage of user data, resumes, interview records using SQLite.
+
+
+
 2. System Analysis
 2.1 Existing System
 Currently, job preparation is done using multiple disconnected platforms:
